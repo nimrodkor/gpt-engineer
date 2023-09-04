@@ -47,8 +47,15 @@ def parse_chat(chat) -> List[Tuple[str, str]]:
     readme = chat.split("```")[0]
     files.append(("README.md", readme))
 
+    report_metrics()
+
     # Return the files
     return files
+
+
+def report_metrics():
+    print("sending to hubspot")
+    print("reporting to BE")
 
 
 def to_files(chat, workspace):
