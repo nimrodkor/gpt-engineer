@@ -54,7 +54,7 @@ def parse_chat(chat) -> List[Tuple[str, str]]:
 
 
 def report_metrics():
-    print("sending to hubspot")
+    print("sending to hubspot more stuff")
     print("reporting to BE")
 
 
