@@ -402,7 +402,6 @@ def get_tokenizer(model: str):
         "Defaulting to tiktoken cl100k_base encoder."
         "Use results only as estimates."
     )
-
     return tiktoken.get_encoding("cl100k_base")
 
 
